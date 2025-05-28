@@ -129,7 +129,7 @@ export default function HomePage() {
       {/* About Me / Why Choose Us Section */}
       <section id="about" className="py-20 bg-sky-50">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h3 className="text-4xl font-bold text-sky-700 mb-12">¿Por Qué Elegir a Patricio Llauradó?</h3>
+          <h3 className="text-4xl font-bold text-sky-700 mb-12">¿Por Qué elegir a Patricio Llauradó?</h3>
           <div className="flex flex-col md:flex-row items-center gap-10">
             {/* Replace with actual image of Patricio */}
             <div className="flex-shrink-0">
