@@ -100,7 +100,7 @@ export default function HomePage() {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5 }}
             >
-              <FaChartLine size={50} className="text-sky-600 mb-6" />
+              <FaUserTie size={50} className="text-sky-600 mb-6" />
               <h4 className="text-xl font-semibold text-gray-800 mb-3">Consultoria Legal | Contable</h4>
               <p className="text-gray-600 text-center leading-relaxed">
                Asesoramiento integral en normativas legales y contabilidad, garantizando el cumplimiento regulatorio y la optimización de recursos financieros.
