@@ -35,7 +35,7 @@ export default function HomePage() {
               <li><a href="#contact" className="text-gray-700 hover:text-sky-600 transition">Contacto</a></li>
             </ul>
           </nav>
-          <p className="hidden md:block text-sm text-gray-600">Consultoría Administrativa en CABA</p>
+          <p className="hidden md:block text-sm text-gray-600">Consultoría Administrativa en Argentina</p>
         </div>
       </header>
 
@@ -93,6 +93,21 @@ export default function HomePage() {
               </p>
             </motion.div>
 
+            <motion.div
+              className="flex flex-col items-center p-8 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+            >
+              <FaChartLine size={50} className="text-sky-600 mb-6" />
+              <h4 className="text-xl font-semibold text-gray-800 mb-3">Consultoria Legal | Contable</h4>
+              <p className="text-gray-600 text-center leading-relaxed">
+               Asesoramiento integral en normativas legales y contabilidad, garantizando el cumplimiento regulatorio y la optimización de recursos financieros.
+              </p>
+            </motion.div>
+
+
             {/* Service Card 2 */}
             <motion.div
               className="flex flex-col items-center p-8 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100"
@@ -129,20 +144,26 @@ export default function HomePage() {
       {/* About Me / Why Choose Us Section */}
       <section id="about" className="py-20 bg-sky-50">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h3 className="text-4xl font-bold text-sky-700 mb-12">¿Por Qué elegir a Patricio Llauradó?</h3>
+          <h3 className="text-4xl font-bold text-sky-700 mb-12">¿Por qué elegirme?</h3>
           <div className="flex flex-col md:flex-row items-center gap-10">
             {/* Replace with actual image of Patricio */}
             <div className="flex-shrink-0">
               <img src="/pato.jpg" alt="Patricio Llauradó" className="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-white" />
             </div>
-            <div className="text-left md:text-lg text-gray-700 leading-relaxed">
-              <p className="mb-4">
-                Con <strong className="text-sky-700">más de 45 años de experiencia</strong> en administracion empresarial, mi enfoque se centra en brindar soluciones prácticas y personalizadas que generen resultados tangibles. Entiendo los desafíos únicos de las empresas en CABA y me dedico a transformar sus operaciones para un crecimiento sostenible.
-              </p>
-              <p>
-                Mi compromiso es ser tu socio estratégico, identificando oportunidades de mejora y guiándote en la implementación de cambios que optimicen tu rendimiento y rentabilidad.
-              </p>
-            </div>
+           <div className="text-left md:text-lg text-gray-700 leading-relaxed">
+  <p className="mb-4">
+    Con <strong className="text-sky-700">más de 45 años de experiencia</strong> en administración empresarial, mi enfoque se centra en brindar soluciones prácticas y personalizadas que generen resultados tangibles. Entiendo los desafíos únicos de las empresas en Argentina y me dedico a transformar sus operaciones para un crecimiento sostenible.
+  </p>
+  <p className="mb-4">
+    Mi compromiso es ser tu socio estratégico, identificando oportunidades de mejora y guiándote en la implementación de cambios que optimicen tu rendimiento y rentabilidad.
+  </p>
+  <ul className="list-disc list-inside mb-4">
+    <li><strong>Asesoría legal y contable integral</strong>, garantizando el cumplimiento normativo, la correcta gestión de obligaciones fiscales y la optimización de recursos financieros.</li>
+    <li>Evaluación profunda de procesos internos, identificación de ineficiencias y oportunidades de mejora para una gestión más eficaz.</li>
+    <li>Implementación de cambios operativos y financieros que optimicen tu rendimiento y rentabilidad, apoyados en un seguimiento continuo y adaptado a las necesidades de tu negocio.</li>
+  </ul>
+</div>
+
           </div>
         </div>
       </section>
@@ -232,7 +253,7 @@ export default function HomePage() {
       <footer className="bg-gray-800 py-8 text-white">
         <div className="max-w-6xl mx-auto px-6 text-center text-sm text-gray-400">
           <p>© {new Date().getFullYear()} Patricio Llauradó. Todos los derechos reservados.</p>
-          <p className="mt-2">Desarrollado con ❤️ y la visión de tu éxito.</p>
+         <a href='https://guidollaurado.vercel.app' target='_blank'> <p className="mt-2">Diseñado con mucho orgullo para mi viejo.</p></a>
         </div>
       </footer>
     </main>
