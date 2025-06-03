@@ -60,7 +60,7 @@ export default function HomePage() {
             Te ayudo a optimizar procesos, reducir costos y potenciar la productividad de tu empresa.
           </motion.p>
           <motion.a
-            href="https://wa.me/549XXXXXXXXXX"
+            href="https://wa.me/5491160497675"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-white text-sky-700 px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:bg-sky-100 hover:scale-105 transition-all duration-300"
@@ -209,15 +209,16 @@ export default function HomePage() {
             <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
               <h4 className="text-2xl font-semibold text-gray-800 mb-6">Información de Contacto</h4>
               <div className="flex flex-col gap-5 text-gray-700 text-lg">
-                <a href="https://wa.me/549XXXXXXXXXX" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-sky-600 transition-colors">
-                  <FaWhatsapp size={22} className="text-sky-500" /> WhatsApp: +54 9 XXXX-XXXXXX
+                <a href="https://wa.me/5491160497675" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-sky-600 transition-colors">
+                  <FaWhatsapp size={22} className="text-sky-500" /> WhatsApp: 1160497675
                 </a>
-                <a href="mailto:patricio@consultora.com" className="flex items-center gap-3 hover:text-sky-600 transition-colors">
-                  <FaEnvelope size={22} className="text-red-500" /> Email: patricio@consultora.com
+                <a href="mailto:organizacionsur1@hotmail.com" className="flex items-center gap-3 hover:text-sky-600 transition-colors">
+                  <FaEnvelope size={22} className="text-red-500" /> Email: organizacionsur1@hotmail.com
                 </a>
-                <div className="flex items-center gap-3">
-                  <FaPhoneAlt size={22} className="text-sky-500" /> Teléfono: (011) 1234-5678
-                </div>
+               <div className="flex items-center gap-3">
+  <FaPhoneAlt size={22} className="text-sky-500" /> 
+  Teléfono: <a href="tel:+541160497675">(011) 1560497675</a>
+</div>
                 <a href="https://facebook.com/tuPagina" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-sky-600 transition-colors">
                   <FaFacebook size={22} className="text-sky-700" /> Facebook: /tuPagina
                 </a>
